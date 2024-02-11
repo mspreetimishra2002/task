@@ -1,0 +1,115 @@
+
+
+            body{background:white;}
+            *{
+                padding:0%;
+                margin: 3%;
+             }
+            .flex-container
+            {
+                margin-left: 30%;
+                margin-right: 20%;
+                margin-top: 0%;
+                width: 500px;
+                height: auto; 
+                
+                }
+            .box
+            {
+                width: 500px;
+                height: 100px;
+                background:white;
+                border: 1px solid rgb(13, 13, 13);
+                font: size 5px;
+                text-align: left;
+                transition:transform 0.5s
+            }
+            .box:hover{
+                transform:scal(1.2);
+            }
+            .hidden-box
+            {
+                width: 500px;
+                height: 155px;
+                background:rgb(243, 232, 240);
+                border: 4px solid rgb(231, 84, 172);
+                font: size 5px;
+                text-align: left;
+                display: none;
+                transition: translate(-50% , -50%);
+            }
+        
+            .hidden-box:hover .hidden-box-content
+            {
+                display: block;
+            }
+            .b1
+            {
+                height: 50px;
+                width: 500px;
+                background-color: rgb(245, 112, 181);
+                color: white;
+            }
+            .b2
+            {
+                height: 30px;
+                width: 80px;
+                background-color: rgb(245, 112, 181);
+                color: white;
+            }
+            .fcolor
+            {
+                color: #000;
+            }
+            h1{
+                max-width: 500px;
+                text-align: center;
+                margin: auto;
+                color: rgb(245, 112, 181);
+            }
+            h1:before{
+                content:"";
+                width: 128px;
+                height: 2px;
+                display:block ;
+                background-color:black;
+                position:absolute ;
+                top: 17%;
+                left: 34%;
+            }
+            h1:after{
+                content:"";
+                width: 145px;
+                height: 2px;
+                display:block ;
+                background-color:black;
+                position:absolute ;
+                top: 17%;
+                right: 27%;
+            }
+            
+            .floatleft
+            {
+                float: left;
+            }
+            .floatright
+            {
+                float: right;
+            }
+            .pradio
+            {
+                width: 20px;
+                height: 20px;
+                border: rgb(240, 152, 197)0;
+                accent-color: rgb(245, 112, 181) ;
+            } 
+            input
+            {
+                width: 80px;
+            }
+            tr ,td,th
+            {
+                padding-left: 30px;
+            }
+            table{ margin-top: 0%;}
+        

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my task</title>
+        <link rel="stylesheet" href="task.css">
+        <script src="task.js"> </script>
+    </head>
+    <body>
+        <div class="flex-container">
+            <h1>YAY it's BOGO</h1>
+            <div  class="box" id="unit1org" onmouseover="showHiddenBox('unit1','unit1org','unt1rd')" >
+                
+                    <input type="radio" class="floatleft  pradio">
+                    <h2 class="floatleft" class="fcolor">1 Unit </h2>
+                    <button class="b2">10% Off</button>
+                    <h2 class="floatright" class="fcolor">$10.00 USD</h2>
+                    <p>Standard Price</p>
+                
+            </div>
+                <div class="hidden-box " id="unit1" onmouseout="hideHiddenBox('unit1org','unit1')">
+                    
+                        <input type="radio" id="unt1rd" class="floatleft pradio" >
+                        <h2 class="floatleft" class="fcolor">1 Unit </h2>
+                        <button class="b2">10% Off</button>
+                        <h2 class="floatright" class="fcolor">$10.00 USD</h2>
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Size</th>
+                                <th> Color</th>   
+                            </tr>
+                            <tr>
+                                <td> a1</td>
+                                <td><input type="number" ></td>
+                                <td>
+                                    <select name="colors">
+                                    <option value="blue">blue</option>
+                                    <option value="black">black</option>
+                                    <option value="red">red</option>
+                                </select></td>
+                            </tr>
+                            <tr>
+                                <td> a2</td>
+                                <td><input type="number" ></td>
+                                <td>
+                                    <select name="colors">
+                                    <option value="blue">blue</option>
+                                    <option value="black">black</option>
+                                    <option value="red">red</option>
+                                </select>
+                            </td>
+                            </tr>
+                        </table>
+                    <!-- </div> -->
+                </div>
+            <div class="box" id="unit2org" onmouseover="showHiddenBox('unit2','unit2org','unt2rd')">
+                <input type="radio" class="floatleft pradio">
+                <h2 class="floatleft" class="fcolor">2 Unit </h2>
+                <button class="b2">20% Off</button>
+                <h2 class="floatright" class="fcolor">$18.00 USD</h2>
+               
+            </div>
+            <div    id="unit2" class="hidden-box "  onmouseout="hideHiddenBox('unit2org','unit2')">
+                    
+                <input type="radio" id="unt2rd" class="floatleft pradio" >
+                <h2 class="floatleft" class="fcolor">2 Unit </h2>
+                <button class="b2">10% Off</button>
+                <h2 class="floatright" class="fcolor">$10.00 USD</h2>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th> Color</th>   
+                    </tr>
+                    <tr>
+                        <td> a1</td>
+                        <td><input type="number" ></td>
+                        <td>
+                            <select name="colors">
+                            <option value="blue">blue</option>
+                            <option value="black">black</option>
+                            <option value="red">red</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td> a2</td>
+                        <td><input type="number" ></td>
+                        <td>
+                            <select name="colors">
+                            <option value="blue">blue</option>
+                            <option value="black">black</option>
+                            <option value="red">red</option>
+                        </select>
+                    </td>
+                    </tr>
+                </table>
+        
+        </div>
+            <div class="box"  id="unit3org" onmouseover="showHiddenBox('unit3','unit3org','unt3rd')">
+                <input type="radio"  class="floatleft pradio">
+                <h2 class="floatleft" class="fcolor">3 Unit </h2>
+                <button class="b2">30% Off</button>
+                <h2 class="floatright" class="fcolor">$24.00 USD</h2>
+                
+            </div>
+            <div  id="unit3" class="hidden-box "  onmouseout="hideHiddenBox('unit3org','unit3')">
+                    
+                <input type="radio" id="unt3rd" class="floatleft pradio" >
+                <h2 class="floatleft" class="fcolor">3 Unit </h2>
+                <button class="b2">10% Off</button>
+                <h2 class="floatright" class="fcolor">$10.00 USD</h2>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th> Color</th>   
+                    </tr>
+                    <tr>
+                        <td> a1</td>
+                        <td><input type="number" ></td>
+                        <td>
+                            <select name="colors">
+                            <option value="blue">blue</option>
+                            <option value="black">black</option>
+                            <option value="red">red</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td> a2</td>
+                        <td><input type="number" ></td>
+                        <td>
+                            <select name="colors">
+                            <option value="blue">blue</option>
+                            <option value="black">black</option>
+                            <option value="red">red</option>
+                        </select>
+                    </td>
+                    </tr>
+                </table>
+            
+        </div>
+            <p class="floatleft" style="color: rgb(245, 112, 181);">Free Delivery</p>
+            <p class="floatright"  >Total:$18.00 USD</p>
+            <button class="b1"> + Add to Cart</button>
+
+           
+        </div>
+       
+        
+    </body>
+</html>
